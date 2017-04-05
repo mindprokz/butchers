@@ -1,5 +1,5 @@
 #menu {
-  background: #f7f3ef;
+  background: url('images/menu_text.jpg');
   height: 90px;
   position: absolute;
   top: 0;
@@ -37,7 +37,7 @@
       display: block;
 
       a {
-        font-size: 14px;
+        font-size: 12px;
       }
     }
 
@@ -45,16 +45,20 @@
       width: 310px;
 
       a {
-        font-size: 18px;
+        font-size: 14px;
       }
     }
 
     @media (min-width: 1170px) {
       width: 430px;
+
+      a {
+        font-size: 18px;
+      }
     }
 
     a {
-      font-family: 'Philosopher', sans-serif;
+      font-family: 'Open Sans', sans-serif;
       display: inline-block;
       width: 33.3333%;
       text-align: center;
@@ -62,6 +66,7 @@
       cursor: pointer;
       text-decoration: none;
       color: #1d1d1d;
+      font-weight: 700;
     }
   }
 
@@ -79,8 +84,8 @@
   .lang {
     position: absolute;
     top: 6px;
-    font-family: 'Philosopher', sans-serif;
-    right: 100px;
+    font-family: 'Open Sans', sans-serif;
+    right: 80px;
 
     a {
       padding-left: 10px;
@@ -89,10 +94,11 @@
       color: #1d1d1d;
       display: block;
       padding-bottom: 10px;
+      font-weight: 700;
     }
 
     @media (min-width: 750px) {
-      right: 120px;
+      right: 110px;
       top: 18px;
 
       a {
@@ -102,18 +108,18 @@
     }
 
     @media (min-width: 970px) {
-      right: 200px;
+      right: 178px;
     }
 
     @media (min-width: 1170px) {
-      right: 295px;
+      right: 275px;
     }
   }
 
   .social {
     position: absolute;
     top: 33px;
-    left: 40px;
+    left: 25px;
 
     @media (min-width: 750px) {
       top: 14px;
@@ -176,6 +182,32 @@
 
     @media (max-width: 750px) {
       display: table;
+    }
+  }
+
+  .num {
+    display: none;
+    position: absolute;
+    top: 15px;
+    left: 250px;
+    font-weight: 700;
+    font-size: 20px;
+
+    img {
+      vertical-align: sub;
+      margin-right: 15px;
+    }
+
+    @media (min-width: 750px) {
+      display: block;
+    }
+
+    @media (min-width: 970px) {
+      left: 16px;
+    }
+
+    @media (min-width: 1170px) {
+      left: 183px;
     }
   }
 }

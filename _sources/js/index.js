@@ -31,13 +31,13 @@ var myMap,
 
 function init(){
   myMap = new ymaps.Map("map", {
-    center: [51.129067, 71.406420],
+    center: [51.1146985, 71.4170466,17],
     zoom: 17
   });
 
   myMap.behaviors.disable(['drag','scrollZoom']);
 
-  myPlacemark = new ymaps.Placemark([51.129067, 71.406420], {
+  myPlacemark = new ymaps.Placemark([51.1146985, 71.4170466,17], {
     hintContent: 'Москва!',
     balloonContent: 'Столица России'
   });

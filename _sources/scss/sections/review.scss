@@ -1,8 +1,9 @@
 #review {
-  background: #fff;
+  background: url('images/review_text.jpg');
   padding-top: 50px;
   padding-bottom: 46px;
   text-align: center;
+  background-size: cover;
 
   h2 {
     color: #4a3030;
@@ -27,8 +28,12 @@
 
     a {
       color: #5c2800;
-      font-family: 'Philosopher', sans-serif;
+      font-family: 'Open Sans', sans-serif;
       font-style: italic;
+    }
+
+    &.review_trap {
+      font-size: 20px;
     }
   }
 
@@ -65,7 +70,7 @@
       }
 
       p {
-        font-family: 'Philosopher', sans-serif;
+        font-family: 'Open Sans', sans-serif;
         font-size: 17px;
         line-height: 25px;
         font-style: italic;

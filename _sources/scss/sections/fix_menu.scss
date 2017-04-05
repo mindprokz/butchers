@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  background: #fff;
+  background: url('images/menu_text.jpg');
   box-shadow: 1px 1px 10px rgba(#000, 0.3);
   z-index: 5;
   height: 90px;
@@ -23,7 +23,6 @@
 
   .logo {
     position: absolute;
-    top: 5px;
     left: 15px;
   }
 
@@ -33,13 +32,14 @@
     left: 130px;
 
     a {
-      font-family: 'Philosopher', sans-serif;
+      font-family: 'Open Sans', sans-serif;
       color: #1d1d1d;
       font-size: 18px;
       text-transform: uppercase;
       text-decoration: none;
       padding-left: 16px;
       padding-right: 16px;
+      font-weight: 700;
 
       @media (min-width: 970px) {
         padding-right: 33px;
@@ -51,7 +51,7 @@
   .lang {
     position: absolute;
     top: 15px;
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     right: 15px;
 
     a {
@@ -60,6 +60,7 @@
       text-decoration: none;
       color: #1d1d1d;
       display: inline;
+      font-weight: 700;
     }
   }
 
@@ -76,6 +77,18 @@
     @media (min-width: 1170px) {
       top: 50px;
       right: 15px;
+    }
+  }
+
+  .num {
+    position: absolute;
+    top: 15px;
+    left: 162px;
+    font-weight: 700;
+
+    img {
+      vertical-align: sub;
+      margin-right: 15px;
     }
   }
 
