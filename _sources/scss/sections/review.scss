@@ -1,5 +1,5 @@
 #review {
-  background: url('images/review_text.jpg');
+  //background: url('images/review_text.jpg');
   padding-top: 50px;
   padding-bottom: 46px;
   text-align: center;
@@ -51,11 +51,11 @@
         width: 50%;
         text-align: left;
         float: left;
-        height: 195px;
+        height: 235px;
       }
 
       @media (min-width: 865px) {
-        height: 140px;
+        height: 180px;
       }
 
       h4 {
